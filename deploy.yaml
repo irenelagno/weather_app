@@ -15,11 +15,11 @@ runtimeManifest:
       actions:
         get-weather:
           function: actions/get-weather/index.js
-            web: 'yes'
-            runtime: nodejs:16
-            inputs:
-              LOG_LEVEL: debug
-              CITY: $CITY
-            annotations:
-              require-adobe-auth: false
-              final: true
+          web: 'yes'
+          runtime: nodejs:16
+          inputs:
+            LOG_LEVEL: debug
+            CITY: $CITY
+          annotations:
+            require-adobe-auth: false
+            final: true
