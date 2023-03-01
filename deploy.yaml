@@ -12,9 +12,9 @@ runtimeManifest:
   packages:
     weather:
       license: Apache-2.0
-       actions:
-          get-weather:
-            function: actions/get-weather/index.js
+      actions:
+        get-weather:
+          function: actions/get-weather/index.js
             web: 'yes'
             runtime: nodejs:16
             inputs:
